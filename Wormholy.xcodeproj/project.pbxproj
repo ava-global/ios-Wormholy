@@ -59,6 +59,9 @@
 		45FF5C5220877A950084BD50 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF5C5120877A950084BD50 /* Section.swift */; };
 		45FF5C54208794720084BD50 /* WHDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF5C53208794720084BD50 /* WHDate.swift */; };
 		52D6D9871BEFF229002C0205 /* Wormholy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Wormholy.framework */; };
+		63F9DCB42BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DCB32BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy */; };
+		63F9DCB52BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DCB32BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy */; };
+		63F9DCB62BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DCB32BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy */; };
 		64DD525A23F84A5F00AB92C4 /* RequestResponseExportOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD525923F84A5F00AB92C4 /* RequestResponseExportOption.swift */; };
 		64DD525C23F86B3D00AB92C4 /* ShareUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD525B23F86B3D00AB92C4 /* ShareUtils.swift */; };
 		64DD527023F9B7FB00AB92C4 /* Postman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD526F23F9B7FB00AB92C4 /* Postman.swift */; };
@@ -132,6 +135,7 @@
 		45FF5C53208794720084BD50 /* WHDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHDate.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* Wormholy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wormholy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* Wormholy-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wormholy-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F9DCB32BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		64DD525923F84A5F00AB92C4 /* RequestResponseExportOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResponseExportOption.swift; sourceTree = "<group>"; };
 		64DD525B23F86B3D00AB92C4 /* ShareUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUtils.swift; sourceTree = "<group>"; };
 		64DD526F23F9B7FB00AB92C4 /* Postman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postman.swift; sourceTree = "<group>"; };
@@ -344,6 +348,7 @@
 				8933C7841EB5B820000D00A4 /* Wormholy.swift */,
 				455818C1207D61A100D2F954 /* CustomHTTPProtocol.swift */,
 				455818C2207D61A100D2F954 /* Storage.swift */,
+				63F9DCB32BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy */,
 				45C51A1620A1FDBC006933CE /* module.modulemap */,
 				45C51A1720A20B38006933CE /* Wormholy.h */,
 				451C9E532080E592002A34BC /* UI */,
@@ -504,6 +509,7 @@
 			files = (
 				45087196207E5A0100EE2D31 /* LaunchScreen.storyboard in Resources */,
 				45087193207E5A0100EE2D31 /* Assets.xcassets in Resources */,
+				63F9DCB62BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy in Resources */,
 				45087191207E59FF00EE2D31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +524,7 @@
 				451C9E6320810472002A34BC /* RequestCell.xib in Resources */,
 				45C4F4F120860DC0007D0D17 /* TextTableViewCell.xib in Resources */,
 				457202A6244CA7BE0020AA2A /* Postman_demo_collection.json in Resources */,
+				63F9DCB42BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy in Resources */,
 				45868F1C20F4E9790024C77B /* ActionableTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +533,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F9DCB52BC64FCA00ECE5A5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

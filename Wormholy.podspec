@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Wormholy"
-  s.version      = "1.7.1"
+  s.version      = "1.7.2"
   s.summary      = "Network debugging made easy"
   s.description  = <<-DESC
     Start debugging iOS network calls like a wizard, without extra code! Wormholy makes debugging quick and reliable.
@@ -15,7 +15,12 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   s.public_header_files = "Sources/**/*.h"
   s.resource_bundles = {
-    'Wormholy' => ['Sources/**/*.storyboard', 'Sources/**/*.xib', 'Sources/**/*.{css,js}']
+    'Wormholy' => [
+      'Sources/**/*.storyboard', 
+      'Sources/**/*.xib', 
+      'Sources/**/*.{css,js}',
+      'Sources/PrivacyInfo.xcprivacy'
+    ]
   }
   s.frameworks  = "Foundation"
 end
